@@ -1,0 +1,20 @@
+/* styles.css */
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .fixed-size-image {
+    width: 200px; /* 원하는 너비로 교체 */
+    height: 100px; /* 원하는 높이로 교체 */
+    object-fit: cover; /* 이미지 비율을 유지하면서 요소에 맞게 조정 */
+  }
+  
